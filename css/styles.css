@@ -175,7 +175,14 @@ img {
 }
 /* Hero section  */
 .hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--grey-bg-cl);
+  background-image: url(../images/hero/Img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -188,7 +195,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-w-txt-cl);
-  background-color: var(--grey-bg-cl);
+  /* background-color: var(--grey-bg-cl); */
   margin-bottom: 30px;
   width: 696px;
   height: 120px;
@@ -352,6 +359,7 @@ img {
 .address-contacts {
   font-style: normal;
 }
+
 .address-item {
   margin-bottom: 9px;
 }
